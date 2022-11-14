@@ -9,7 +9,9 @@ setup(
     author_email='jvsavietto6@gmail.com',
     license='GNU General Public License v3 (GPLv3)',
     packages=find_packages(),
-    install_reqs = ['nltk==3.7', 'kneed==0.8.1', 'scikit-learn==1.0.2', 'sentence-transformers==2.2.0', 'wordcloud==1.8.2.2'],
+    install_requires = ['nltk==3.7', 'kneed==0.8.1', 'scikit-learn==1.0.2', 'sentence-transformers==2.2.0', 'wordcloud==1.8.2.2'],
+    setup_requires = ['nltk==3.7', 'kneed==0.8.1', 'scikit-learn==1.0.2', 'sentence-transformers==2.2.0', 'wordcloud==1.8.2.2'],
+
 
     classifiers=[
         'Development Status :: 4 - Beta',
