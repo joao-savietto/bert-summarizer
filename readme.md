@@ -22,7 +22,10 @@ python setup.py install
 
 # 🔎 Exemplo de uso
 
-<p> Para demonstrar o funcionamento, vou executar o algoritmo com o texto <a ref="http://saopauloreview.com.br/como-se-faz-um-escritor-ensaio-sobre-a-formacao-de-jorge-luis-borges/"> deste artigo. </a>Instale a biblioteca <i>html-text</i> para extrair o texto da página </p>
+
+[O texto desse artigo será usado para exemplificar o uso do algoritmo](http://saopauloreview.com.br/como-se-faz-um-escritor-ensaio-sobre-a-formacao-de-jorge-luis-borges/)
+
+<p> Instale a biblioteca <i>html-text</i> para extrair o texto do site </p> 
 
 ```
 pip install html-text==0.5.2
@@ -144,7 +147,9 @@ pip install matplotlib==3.5.2
 
 ### sumary_wordcloud
 
-<p> Gera uma wordcloud do último texto sumarizado pelo algoritmo. A wordcloud é baseada na biblioteca <a ref="https://github.com/amueller/word_cloud">wordcloud</a> </p>
+<p> Gera uma wordcloud do último texto sumarizado pelo algoritmo. A wordcloud é baseada na biblioteca wordcloud </p>
+
+[Link da biblioteca](https://github.com/amueller/word_cloud)
 
 <p> Parâmetros</p>
 <p><i> Nenhum </i</p>
