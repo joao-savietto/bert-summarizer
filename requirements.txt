@@ -3,3 +3,4 @@ kneed==0.8.1
 scikit-learn==1.0.2
 sentence-transformers==2.2.0
 wordcloud==1.8.2.2
+sentence-transformers==2.2.0
