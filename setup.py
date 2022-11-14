@@ -1,6 +1,4 @@
 from setuptools import setup, find_packages
-# import parse_requirements
-from pip.req import parse_requirements
 
 setup(
     name='bertsummarizer',
