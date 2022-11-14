@@ -42,6 +42,7 @@ url = "http://saopauloreview.com.br/como-se-faz-um-escritor-ensaio-sobre-a-forma
 r = requests.get(url)
 borges = html_text.extract_text(r.text)
 
+summarizer = BertSummarizer(max_clusters=100)
 summary = summarizer.extract_key_paragraphs(borges, 1, 5)
 print(summary)
 ```
